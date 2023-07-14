@@ -45,3 +45,6 @@ while saque != 0:
 print(cedulas)
 print(quant_notas)
 print(f'Serão retiradas {cedulas_retiradas} cédulas de {cedulas}')
+
+for i in range(len(cedulas)):
+    print(f'{cedulas_retiradas[i]} cédulas de {cedulas[i]}')
